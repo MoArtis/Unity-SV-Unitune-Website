@@ -1,0 +1,25 @@
+﻿{
+  "Name": "Support",
+  "NavTitle": "❓ Support",
+  "ModalTitle": "Need help? Contact us!",
+  "Options": [
+    {
+      "Title": "Discord",
+      "Img": "/img/discord.svg",
+      "Desc": "Ask your questions on the dedicated Discord Channel! Don't hesitate to ping me if needed.",
+      "Link": "https://discord.gg/JNz3RkqGXh"
+    },
+    {
+      "Title": "Github",
+      "Img": "/img/github.svg",
+      "Desc": "Feel free to fill up an issue on Github. I will be notified as soon as the issue is created.",
+      "Link": "https://github.com/MoArtis/Unity-SV-Unitune-Issues/issues"
+    },
+    {
+      "Title": "Email",
+      "Img": "/img/mail.svg",
+      "Desc": "Contact me directly via email. It might take a few days to get an response.",
+      "Link": "mailto:flexmotion@moartis.dev?subject=Unitune - Support Mail from the website"
+    }
+  ]
+}

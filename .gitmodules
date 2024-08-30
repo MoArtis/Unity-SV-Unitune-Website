@@ -1,0 +1,6 @@
+[submodule "Unity-Website-Dependencies"]
+	path = Unity-Website-Dependencies
+	url = https://github.com/MoArtis/Unity-Website-Dependencies
+[submodule "Unity-SV-Unitune"]
+	path = Unity-SV-Unitune
+	url = https://github.com/MoArtis/Unity-SV-Unitune

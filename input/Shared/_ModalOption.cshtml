@@ -1,0 +1,19 @@
+﻿@{
+    var title = Model.GetString("Title");
+    var img = Model.GetString("Img");
+    var desc = Model.GetString("Desc");
+    var link = Model.GetString("Link");
+    
+        <div class="col-md card card-link mx-2">
+            <a href="@link">
+                <span class="link-spanner"></span>
+            </a>
+            <img class="card-img-top" src="@img" alt="@title">
+            <div class="card-body">
+                <div class="feature-title d-flex align-items-center justify-content-center">
+                    <h2 class="card-title text-center">@title</h2>
+                </div>
+                <p class="card-text">@desc</p>
+            </div>
+        </div>
+}

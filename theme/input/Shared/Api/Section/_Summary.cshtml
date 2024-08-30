@@ -1,0 +1,10 @@
+@{
+    string summary = Document.GetString("Summary");
+    if (!summary.IsNullOrWhiteSpace())
+    {
+        <h1 id="SeeAlso">Summary</h1>
+        <div class="lead mb-3 alert alert-primary" role="alert">
+          @Html.Raw(summary)
+        </div>
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "Features": [
+    {
+      "Title": "Only one component to learn",
+      "Img": "/img/features/1_onecomponent.webp",
+      "Description": ""
+    },
+    {
+      "Title": "Build size optimization",
+      "Img": "/img/features/2_buildsizeoptim.webp",
+      "Description": ""
+    },
+    {
+      "Title": "Component and asset previews",
+      "Img": "/img/features/3_preview.webp",
+      "Description": ""
+    },
+    {
+      "Title": "Low-level API",
+      "Img": "/img/features/4_lowlevelapi.webp",
+      "Description": ""
+    },
+    {
+      "Title": "High level of compatibility",
+      "Img": "/img/features/5_over50formats.webp",
+      "Description": ""
+    }
+  ]
+}

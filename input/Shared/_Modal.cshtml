@@ -1,0 +1,35 @@
+﻿@{
+    var navTitle = Model.GetString("NavTitle");
+    var modalTitle = Model.GetString("ModalTitle");
+    var name = Model.GetString("Name");
+    
+    <li class="nav-item">
+        <a class="nav-link" href="" data-toggle="modal" data-target="#@name-Modal">@navTitle</a>
+    </li>
+
+    <!-- Modal -->
+    <div class="modal fade" id="@name-Modal" tabindex="-1" role="dialog" aria-labelledby="@name-ModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered store" style="min-width:50%" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="@name-LongTitle">@modalTitle</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row px-2">
+
+                        @{
+                            var options = Model.GetDocuments("Options").ToArray();
+
+                            foreach (var option in options)
+                                @await Html.PartialAsync("_ModalOption", option);
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
