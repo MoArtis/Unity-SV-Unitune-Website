@@ -65,4 +65,4 @@ public class PlayOnDemand : MonoBehaviour
 ```
 
 And that's pretty much it! **Unitune** thrives to be a simple-to-use but powerful plugin.
-That being said, if you are interested in more complex use cases involving interacting with **Libopenmpt** more directly, head over to the [Use the low-level API](xref:use-the-low-level-api) section.
+That being said, if you are interested in more complex use cases involving interacting with **Libopenmpt** more directly, head over to the [Use the low-level API](xref:Use-the-low-level-API) section.
