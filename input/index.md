@@ -15,9 +15,6 @@ HasUnityWebGL: true
 #### **A WebGL-compatible easy-to-use tracker music player for Unity by [Mathieu Philippe](https://www.moartis.dev).**
 #### **Huge soundtrack, tiny build size!**
 
-A WebGL-compatible easy-to-use tracker music player.
-Huge soundtrack, tiny build size!
-
 
 When working on a retro WebGL game for a client, I realized that the majority of the build size was due to the music files.
 While we were using [tracker music](https://en.wikipedia.org/wiki/Module_file), as Unity natively supports the most common formats, they are [converted to AAC when targeting WebGL](https://discussions.unity.com/t/audio-file-formats-and-webgl-it/590592).
