@@ -9,7 +9,7 @@ a [module abstraction class](xref:api-SV.Unitune.Libopenmpt.Module) and a [utili
 
 While interacting with **Libopenmpt** manually is risky (like many other native plugins) due to the unmanaged memory management,
 it will give you more control over the generation and usage of the Audio data. 
-To illustrate that, here is an example of **Libopenmpt** is used to generate wav files within Unity:
+To illustrate that, here is an example of **Libopenmpt** being used to generate wav files within Unity:
 
 ```csharp
 using System.IO;
