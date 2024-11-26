@@ -23,7 +23,7 @@ This translated to a 1000% increase in our expected build size. 😱
 
 It motivated me to develop a solution: **Unitune**, a tracker player that converts module files to AudioClips at runtime.
 Thanks to its generative nature, it will give you more control over your music at runtime while keeping your build size as tiny as possible.
-#### **Available right now on the [Unity Asset Store](https://u3d.as/3aq5)**!
+#### **Available right now on the [Unity Asset Store](https://u3d.as/3mpQ)**!
 
 </div>
 
